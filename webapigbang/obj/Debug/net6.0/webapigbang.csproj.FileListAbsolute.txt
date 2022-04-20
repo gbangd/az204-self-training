@@ -1,0 +1,7 @@
+/workspace/az204-self-training/webapigbang/obj/Debug/net6.0/webapigbang.csproj.AssemblyReference.cache
+/workspace/az204-self-training/webapigbang/obj/Debug/net6.0/webapigbang.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/az204-self-training/webapigbang/obj/Debug/net6.0/webapigbang.AssemblyInfoInputs.cache
+/workspace/az204-self-training/webapigbang/obj/Debug/net6.0/webapigbang.AssemblyInfo.cs
+/workspace/az204-self-training/webapigbang/obj/Debug/net6.0/webapigbang.csproj.CoreCompileInputs.cache
+/workspace/az204-self-training/webapigbang/obj/Debug/net6.0/webapigbang.MvcApplicationPartsAssemblyInfo.cs
+/workspace/az204-self-training/webapigbang/obj/Debug/net6.0/webapigbang.MvcApplicationPartsAssemblyInfo.cache

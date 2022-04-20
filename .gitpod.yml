@@ -1,11 +1,14 @@
-# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+image: mcr.microsoft.com/dotnet/sdk:5.0
+
 tasks:
-  - init: echo 'init script' # runs during prebuild
-    command: echo 'start script'
+  - name: DOTNET
+  - init: |
+          cp -r /usr/share/dotnet /workspace
+          dotnet restore
+    command: /workspace/dotnet/dotnet watch run
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
   - port: 3000
     onOpen: open-preview
 
-image: gitpod/workspace-dotnet

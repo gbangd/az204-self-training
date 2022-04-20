@@ -1,14 +1,13 @@
-image: mcr.microsoft.com/dotnet/sdk:5.0
+image:
+  file: .gitpod.Dockerfile
 
 tasks:
-  - name: DOTNET
-  - init: |
-          cp -r /usr/share/dotnet /workspace
-          dotnet restore
-    command: /workspace/dotnet/dotnet watch run
+  - name: Restore & Build
+    init: |
+      dotnet dev-certs https 
+      dotnet restore
+      dotnet build
 
-# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
-ports:
-  - port: 3000
-    onOpen: open-preview
-
+vscode:
+  extensions:
+    - muhammad-sammy.csharp
